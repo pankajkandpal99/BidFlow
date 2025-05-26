@@ -109,7 +109,7 @@ export class EmailProcessingService {
         data: {
           email: contractorInfo.email,
           username: contractorInfo.name,
-          password: "Password@123", // TODO: Generate proper password or use OAuth
+          password: "Password@123", // TODO: Generate proper password or use OAuth and hash the password
           role: "USER",
         },
       });

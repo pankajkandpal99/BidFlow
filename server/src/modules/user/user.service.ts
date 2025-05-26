@@ -1,6 +1,6 @@
 import { Injectable, HttpException, HttpStatus } from "@nestjs/common";
-import { DatabaseService } from "../database/database.service";
 import { User, UserProfile } from "@/interface/user.interface";
+import { DatabaseService } from "@/database/database.service";
 // import { User, UserProfile } from "./user.interface";
 
 @Injectable()
