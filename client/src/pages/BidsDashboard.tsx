@@ -75,6 +75,7 @@ const BidsDashboard = () => {
   const dispatch = useAppDispatch();
   const [searchTerm, setSearchTerm] = useState("");
   const [isDialogOpen, setIsDialogOpen] = useState(false);
+  const { currentUser } = useAppSelector((state) => state.user);
 
   const {
     bids,
